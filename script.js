@@ -295,11 +295,14 @@ var myresume=[
    JSON RESUME-
    ${JSONRESUME}`);
    RESOBJECT=JSON.parse(JSONRESUME);
-   console.log(RESOBJECT);
+   console.log(`
+   OBJECTRESUME-
+   ${RESOBJECT}`);
 
   //  -------OUTPUT-----
 
   
   JSON RESUME-
   [{"NAME":"NANDHUKRISHNA M A","EMAIL ID:":"nandhukrish538@gmail.com","PH NO :":"6238317440"},{"CAREER OBJECTIVES-":"Looking for an opportunity in field of engineering for my own career and to contribute to the development of the organization. I am someone with leadership qualities and time management capabilities. I can use my leadership and communication skills to transfer knowledge and to contribute effectively to the common good. "},{"EDUCATIONAL QUALIFICATIONS :":{"BACHELOR DEGREE-":"Electrical and Electronics Engineering (2014 - 2018); Government Engineering College Bartonhill, Trivandrum – 6.38 GPA ","SENIOR SECONDARY-":"CBSE(2012 -2014); Jyothi Nilayam Higher Secondary School – 74.4% ","SECONDARY-":" ICSE (2011 - 2012); Seventh Day Adventist English Medium School – 71%"}},{"TECHNICAL SKILLS : ":{"Programming Languages :":" C, C++,TALLY PRIME,JAVASCRIPT ","Microsoft Office:":" Word, Excel, Power Point"}},{"ACADEMIC PROJECTS : ":{"1.":"Home automation","2.":"Small micro wind turbines using solar panel "}},{"EXPERIENCE : ":"FROM 2020 TO PRESENT","COMPANY–":" DEVI INTERNATIONAL","POST–":" ACCOUNTANT "},{"PERSONAL PROFILE : ":{"Date Of Birth-":" 13/07/1996 ","Father’s Name-":" V Mohanakumar","Mother’s Name-":" Anitha R ","Gender-":" Male ","Marital Status- ":" Unmarried","Nationality-":"Indian","Hobbies":["Yoga","CrickeT","Travelling "],"Languages Known":[" English"," Malayalam "],"Address for communication ":{"HOUSE NAME":" S V Mandiram","POST OFFICE":"Karyavattom P. O","DISTRICT":"THIRUVANANTHAPURAM","STATE":"KERALA","PIN NO.":"695581 "}}},{"DECLARATION":" I hereby declare that the given information is true to the best of my knowledge. "}] script.js:294:12
-Array(8) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…} ]
+  OBJECTRESUME-
+  Array(8) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…} ]
